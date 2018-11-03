@@ -1,0 +1,7 @@
+{
+   "discord": "YOUR-BOT-TOKEN",
+   "discord_client": "YOUR_CLIENT_ID_HERE",
+   "discord_group": "YOUR_DISCORD_CHANNEL_ID_HERE",
+   "telegram": "YOUR-BOT-TOKEN",
+   "telegram_group": "YOUR_TELEGRAM_GROUP_ID_HERE"
+}
