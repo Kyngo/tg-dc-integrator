@@ -35,7 +35,7 @@ discordBot.on('message', function (user, userID, channelID, message, evt) {
 // TELEGRAM => DISCORD
 
 telegramBot.onText(/^.*$/, (msg, match) => {
-    if (msg.from === auth.telegram_group) {
+    if (msg.chat.id === auth.telegram_group) {
         const payload = "[TG] " + msg.from.first_name + ": " + msg.text;
         console.log(payload);
         console.log("DCG: " + auth.discord_group);
