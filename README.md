@@ -1,13 +1,12 @@
 # Telegram / Discord Integrator
+Allows you to see the messages from one platform on the other
 
-## Allows you to see the messages from one platform on the other
-
-### Installation
-
+Setup
+------
 Just run `npm install`.
 
-### Configuration
-
+Configuration
+------
 Copy `config.sample.json` and rename it to `config.json`, using the following parameters:
 
 - discord : Place your Discord Bot token there.
@@ -16,8 +15,8 @@ Copy `config.sample.json` and rename it to `config.json`, using the following pa
 - telegram: Place here the Telegram Bot Token.
 - telegram_group: Place here the Telegram Group ID.
 
-### Example configuration
-
+Example configuration
+------
 ```json
 {
     "discord": "ABCDEFGHIJKL...",
@@ -28,6 +27,7 @@ Copy `config.sample.json` and rename it to `config.json`, using the following pa
 }
 ```
 
-### Troubleshooting
+Troubleshooting
+------
 
 Any issue or guess let me know here or on Telegram: @kyngo
